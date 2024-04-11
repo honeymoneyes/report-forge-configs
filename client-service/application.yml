@@ -11,6 +11,12 @@ spring:
       hibernate:
         format_sql: true
 
+  datasource:
+    url: jdbc:postgresql://client-service-db:5432/clients
+    username: alex
+    password: alex
+    driver-class-name: org.postgresql.Driver
+
   flyway:
     url: jdbc:postgresql://client-service-db:5432/clients
     user: alex
