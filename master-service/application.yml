@@ -53,7 +53,7 @@ eureka:
 
 logging:
   level:
-    org.springframework: off
+    org.springframework: debug
     org.example.masterservice: info
     org.springframework.transaction: info
     org.springframework.kafka.transaction: info
