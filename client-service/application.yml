@@ -1,7 +1,3 @@
-test:
-  text:
-    - ZHOPAZHOPAZHOPA
-
 server:
   port: 0
 
