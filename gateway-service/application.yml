@@ -31,7 +31,3 @@ spring:
           uri: lb://client-service/
           predicates:
             - Path=/client-service/**
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka:2000/eureka
